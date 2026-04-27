@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Apresentação TCC"
+
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    footer: "Elaborado por Felipe Miranda de Souza Almeida."
+    css: styles.css

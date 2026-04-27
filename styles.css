@@ -1,0 +1,7 @@
+.reveal {
+  font-size: 36px;
+}
+.reveal .nav-tabs .nav-link {
+  font-size: 10px !important;
+  color: red !important;
+}
