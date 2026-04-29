@@ -89,19 +89,19 @@ Manual de apoio para TCCs em viabilidade econômica, com orientações sobre flu
 ## Etapas do TCC
 
 ::::::: {style="display: flex; gap: 15px; margin-top: 40px;"}
-::: {style="flex:1; height:120px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;"}
+::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
 <strong>Projeto de Pesquisa</strong>
 :::
 
-::: {style="flex:1; height:120px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;"}
+::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
 <strong>Resultados Preliminares</strong>
 :::
 
-::: {style="flex:1; height:120px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;"}
+::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
 <strong>Entrega do TCC</strong>
 :::
 
-::: {style="flex:1; height:120px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;"}
+::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center; font-size:28px;"}
 <strong>Slides</strong>
 :::
 :::::::
@@ -111,18 +111,25 @@ Foi elaborado um cronograma de orientação, disponível para download nos links
 
 ::: {style="display:flex; gap:15px;"}
 <a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=cubxear8&dl=0" 
-   style="background:#0D6EFD; color:white; padding:0.6rem 1.4rem; 
+   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem; 
           border-radius:6px; text-decoration:none; font-weight:600;"> Turma 242 </a>
 
 <a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=cubxear8&dl=0" 
-   style="background:#0D6EFD; color:white; padding:0.6rem 1.4rem; 
+   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem; 
           border-radius:6px; text-decoration:none; font-weight:600;"> Turma 251 </a>
 :::
 ::::
 
+
+::: {.callout-note appearance="simple"}
+Você tem acesso, no Sistema de TCCs, aos prazos das etapas definidos pelo MBA USP/ESALQ.
+:::
+
 ::: {.callout-important appearance="simple"}
 Fique à vontade para me encaminhar os arquivos para revisão antes dos prazos estabelecidos no cronograma.
 :::
+
+
 
 ```{=html}
 <!--
@@ -137,15 +144,63 @@ Você tem acesso, no Sistema de TCCs, aos prazos das etapas definidos pelo MBA U
 ::: panel-tabset
 ### [Projeto de Pesquisa]{style="font-size:22px; color:black;"}
 
-Definição do tema, problema de pesquisa e metodologia.
+Definição do tema, problema de pesquisa e estratégia metodológica. Foque na construção das seções **Introdução** e **Metodologia**.
+
+::: {.callout-important appearance="simple"}
+Utilize o Template Projeto de Pesquisa disponibilizado no Sistema de TCCs.
+:::
+
+::: {style="margin-top:28px;"}
+
+::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem; margin-bottom:12px;"}
+A **Introdução** deve apresentar de forma clara o tema do estudo, situando-o com base em trabalhos já publicados, delimitar o problema de pesquisa, justificar sua importância e explicitar um objetivo direto e mensurável.
+:::
+
+::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem;"}
+A **Metodologia** deve explicar como a pesquisa será conduzida, descrevendo o tipo de estudo, o ferramental analítico, a origem e o tratamento dos dados, bem como os procedimentos de coleta e análise, garantindo replicabilidade.
+:::
+
+:::
 
 ### [Resultados Preliminares]{style="font-size:22px; color:black;"}
 
-Resultados preliminares e análises.
+Consiste na apresentação dos resultados da pesquisa, podendo incluir evidências parciais quando o estudo ainda estiver em andamento.
+
+::: {.callout-important appearance="simple"}
+Utilize o Template Resultados Preliminares disponibilizado no Sistema de TCCs.
+:::
+
+::: {style="margin-top:28px;"}
+::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem; margin-bottom:12px;"}
+Na seção de **Resultados e Discussão**, você deve apresentar e explicar os resultados completos da pesquisa. Além de mostrar os dados, é importante interpretá-los, destacando o que eles indicam, seus pontos fortes e limitações, sempre comparando com outros estudos já publicados sobre o tema.
+:::
+:::
+
 
 ### [Entrega do TCC]{style="font-size:22px; color:black;"}
 
 Entrega final do trabalho.
+
+
+::: {style="margin-top:28px;"}
+
+::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
+A **Introdução** deve apresentar de forma clara o tema do estudo, situando-o com base em trabalhos já publicados, delimitar o problema de pesquisa, justificar sua importância e explicitar um objetivo direto e mensurável.
+:::
+
+::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
+A **Metodologia** deve explicar como a pesquisa será conduzida, descrevendo o tipo de estudo, o ferramental analítico, a origem e o tratamento dos dados, bem como os procedimentos de coleta e análise, garantindo replicabilidade.
+:::
+
+::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
+Na seção de **Resultados e Discussão**, você deve apresentar e explicar os resultados completos da pesquisa. Além de mostrar os dados, é importante interpretá-los, destacando o que eles indicam, seus pontos fortes e limitações, sempre comparando com outros estudos já publicados sobre o tema.
+:::
+
+::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem;"}
+Na seção de **Considerações Finais**, você deve resumir os principais resultados e apresentar uma interpretação geral do estudo, respondendo de forma clara ao objetivo da pesquisa. Essa parte não deve repetir os resultados nem trazer citações, tabelas ou informações de outros estudos.
+:::
+
+:::
 
 ### [Slides]{style="font-size:22px; color:black;"}
 
