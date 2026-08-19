@@ -321,7 +321,11 @@
   font-weight: 700;
 }
 
-/* ===== Barra de progresso (reveal.js) ===== */
+/* ===== Barra de progresso e numeração de slide (reveal.js) ===== */
 .reveal .progress {
+  color: var(--brand);
+}
+
+.reveal .slide-number {
   color: var(--brand);
 }
