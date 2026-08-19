@@ -1,7 +1,222 @@
-.reveal {
-  font-size: 36px;
+/* ===== Design tokens (mesma paleta do site felipeeconomist.github.io) ===== */
+:root {
+  --font-head: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ink: #111827;
+  --ink-2: #374151;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --surface: #ffffff;
+  --surface-soft: #f8fafc;
+  --accent: #d00000;
+  --accent-soft: #f8eef2;
+  --link: #2454a6;
 }
-.reveal .nav-tabs .nav-link {
-  font-size: 10px !important;
-  color: red !important;
+
+/* ===== Base ===== */
+.reveal {
+  font-family: var(--font-body);
+  font-size: 30px;
+  color: var(--ink-2);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-family: var(--font-head);
+  color: var(--ink);
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.reveal h2 {
+  font-size: 1.3em;
+  padding-bottom: 0.28em;
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid var(--ink);
+}
+
+.reveal a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.reveal a:hover {
+  text-decoration: underline;
+}
+
+.reveal strong {
+  color: var(--ink);
+}
+
+.reveal .footer {
+  color: var(--muted);
+  font-size: 0.4em;
+}
+
+/* ===== Slide de título ===== */
+#title-slide.quarto-title-block {
+  text-align: left;
+}
+
+#title-slide .title {
+  border-bottom: none;
+  font-size: 1.7em;
+}
+
+#title-slide .quarto-title-author-name {
+  color: var(--muted);
+  font-size: 0.6em;
+  font-weight: 400;
+}
+
+/* ===== Callouts minimalistas =====
+   Especificidade alinhada ao tema (.reveal div.callout.callout-*) para
+   sobrepor as regras padrão do Quarto sem depender de !important. */
+.reveal div.callout {
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: 8px;
+  background: var(--surface-soft);
+  box-shadow: none;
+}
+
+.reveal div.callout.callout-important {
+  border-left-color: var(--accent);
+}
+
+.reveal div.callout.callout-note {
+  border-left-color: var(--link);
+}
+
+.reveal div.callout.callout-warning {
+  border-left-color: #b45309;
+}
+
+.reveal div.callout.callout-tip {
+  border-left-color: #15803d;
+}
+
+.reveal .callout-title-container {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* ===== Cartões e blocos reutilizáveis ===== */
+.info-card {
+  padding: 0.55em 0.85em;
+  margin-bottom: 0.5em;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-soft);
+  color: var(--ink-2);
+  font-size: 0.75em;
+}
+
+.info-card:last-child {
+  margin-bottom: 0;
+}
+
+.stage-row {
+  display: flex;
+  gap: 0.8em;
+  margin-top: 1em;
+}
+
+.stage-box {
+  flex: 1;
+  padding: 0.7em 0.4em;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-align: center;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.7em;
+}
+
+/* ===== Botões ===== */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35em 0.9em;
+  border: 1.5px solid var(--ink);
+  border-radius: 6px;
+  color: var(--ink) !important;
+  background: var(--surface);
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.btn-outline:hover {
+  border-color: var(--accent);
+  color: var(--accent) !important;
+}
+
+.btn-row {
+  display: flex;
+  gap: 0.7em;
+  flex-wrap: wrap;
+}
+
+/* ===== Foto ===== */
+.avatar-photo {
+  border-radius: 50%;
+  border: 1px solid var(--ink);
+  box-shadow: 0 10px 28px rgba(17, 24, 39, 0.12);
+}
+
+/* ===== Abas (panel-tabset / Tabby) ===== */
+.reveal .panel-tabset-tabby {
+  display: flex;
+  gap: 1.3em;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.7em 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.reveal .panel-tabset-tabby li {
+  margin: 0;
+}
+
+.reveal .panel-tabset-tabby a {
+  display: inline-block;
+  padding: 0.25em 0.05em 0.55em;
+  color: var(--muted);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.62em;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.reveal .panel-tabset-tabby a:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.reveal .panel-tabset-tabby a[aria-selected="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
+/* ===== Texto utilitário ===== */
+.text-muted {
+  color: var(--muted);
+}
+
+.text-small {
+  font-size: 0.7em;
+}
+
+.accent-text {
+  color: var(--accent);
+  font-weight: 700;
 }

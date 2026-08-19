@@ -19,17 +19,15 @@ Solicita-se que o material não seja compartilhado com alunos de outros orientad
 
 ::::::: columns
 ::: {.column width="30%"}
-![](foto.jpg){width="220px" style="border-radius: 50%;"}
+![](foto.jpg){width="220px" class="avatar-photo"}
 :::
 
 ::::: {.column width="70%"}
 [Felipe Miranda de Souza Almeida](https://www.linkedin.com/in/felipe-miranda-de-souza-almeida-64522599)
 
-::: {style="font-size: 30px;"}
-**Orientador no MBA USP/ESALQ**
-:::
+### Orientador no MBA USP/ESALQ
 
-::: {style="font-size: 24px;"}
+::: {.text-small}
 - Atuação como orientador desde 2018\
 - Experiência nos MBAs:
   - Agronegócios\
@@ -42,19 +40,7 @@ Solicita-se que o material não seja compartilhado com alunos de outros orientad
 
 ## Comunicação
 
-O processo de orientação e nosso principal canal de comunicação ocorrerão por meio do chat no Sistema de TCCs.
-
-::: {.callout-warning title="Reunião"}
-Há a possibilidade de agendarmos reuniões conforme a necessidade e o andamento do trabalho. O agendamento deverá ser realizado via [Calendly](https://calendly.com/felipemirandadesouza/30min), e os encontros ocorrerão pelo Zoom.
-:::
-
-::: {.callout-important appearance="simple"}
-Um e-mail automático será enviado com o link de acesso ao Zoom. Caso não receba, verifique a caixa de spam ou entre em contato.
-:::
-
-::: {.callout-important appearance="simple"}
-Não agende reunião sem alinhamento prévio, mesmo que já tenha acesso ao link.
-:::
+O processo de orientação e comunicação ocorrerá [exclusivamente]{.accent-text} por meio do chat disponível no Sistema de Trabalho Final.
 
 ::: {.callout-note appearance="simple"}
 Contato adicional: **felipemirandadesouza\@outlook.com**
@@ -68,61 +54,61 @@ No sistema acadêmico, você tem acesso a documentos essenciais que auxiliam na 
 
 **Ordem sugerida de leitura:**
 
-::: {style="font-size: 25px;"}
+::: {.text-small}
 <ol type="I">
 
-<li><strong>Instruções e Normas para Trabalhos de Conclusão de Curso</strong> (leitura das páginas 1 a 31 e 58 a 59)</li>
+<li><strong>Manual de Instruções e Normas para Trabalhos de Conclusão de Curso</strong></li>
 
-<li><strong>Áreas e Linhas de Pesquisa</strong>\
-Manual de apoio que apresenta as linhas de pesquisa, métodos e procedimentos para a elaboração dos trabalhos do MBA em Gestão de Projetos.</li>
+<li><strong>Áreas Temáticas</strong>\
+material de apoio, indicando linhas de pesquisa, métodos e procedimentos a serem empregados para a elaboração de trabalhos referentes ao curso de MBA em Gestão de Projetos.</li>
+
+<li><strong>Metodologias de pesquisa para trabalhos de conclusão de curso</strong>\
+Este manual apresenta definições e etapas sugeridas para a classificação de pesquisas de natureza aplicada.</li>
 
 <li><strong>Instruções gerais para elaboração de um Fluxo de Caixa</strong>\
 Manual de apoio para TCCs em viabilidade econômica, com orientações sobre fluxo de caixa, análises e etapas do desenvolvimento.</li>
 
-<li><strong>Instruções e Normas para Trabalhos de Conclusão de Curso</strong> (leitura das páginas 32 a 56)</li>
-
-<li><strong>Documento complementar disponibilizado no sistema MBX</strong></li>
+<li><strong>Documentos complementares disponibilizados no Sistema de Trabalho Final</strong></li>
 
 </ol>
 :::
 
 ## Etapas do TCC
 
-::::::: {style="display: flex; gap: 15px; margin-top: 40px;"}
-::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
-<strong>Projeto de Pesquisa</strong>
+:::::: stage-row
+::: stage-box
+Projeto de Pesquisa
 :::
 
-::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
-<strong>Resultados Preliminares</strong>
+::: stage-box
+Resultados Preliminares
 :::
 
-::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center;font-size:28px;"}
-<strong>Entrega do TCC</strong>
+::: stage-box
+Entrega do TCC
 :::
 
-::: {style="flex:1; height:80px; display:flex; align-items:center; justify-content:center; border:2px solid black; border-radius:12px; text-align:center; font-size:28px;"}
-<strong>Slides</strong>
+::: stage-box
+Slides
 :::
-:::::::
+::::::
+
+::: {.callout-warning title="Atenção"}
+O uso dos templates disponibilizados e o cumprimento das normas de formatação são **obrigatórios em todas as entregas**.
+:::
 
 :::: {.callout-note title="Cronograma"}
 Foi elaborado um cronograma de orientação, disponível para download nos links abaixo, com base nos prazos estabelecidos pelo MBA USP/ESALQ. Destaca-se que não há autonomia quanto às etapas de submissão no sistema e que a avaliação será realizada com base nas entregas do Projeto de Pesquisa e dos Resultados Preliminares.
 
-::: {style="display:flex; gap:15px;"}
-<a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=4krqk3vl&dl=0"
-   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem;
-          border-radius:6px; text-decoration:none; font-weight:600;"> Turma 251 </a>
-
-<a href="https://www.dropbox.com/scl/fi/uqhgqzfhut6vbu8qdies0/Cronograma-GPRO252.xlsx?rlkey=veam6tv7xvbgw7xn6apngau1p&st=9ag61vhb&dl=0"
-   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem;
-          border-radius:6px; text-decoration:none; font-weight:600;"> Turma 252 </a>
+::: btn-row
+<a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=4krqk3vl&dl=0" class="btn-outline">Turma 251</a>
+<a href="https://www.dropbox.com/scl/fi/uqhgqzfhut6vbu8qdies0/Cronograma-GPRO252.xlsx?rlkey=veam6tv7xvbgw7xn6apngau1p&st=9ag61vhb&dl=0" class="btn-outline">Turma 252</a>
 :::
 ::::
 
 
 ::: {.callout-note appearance="simple"}
-Você tem acesso, no Sistema de TCCs, aos prazos das etapas definidos pelo MBA USP/ESALQ.
+Você tem acesso, no Sistema de Trabalho Final, aos prazos das etapas definidos pelo MBA USP/ESALQ.
 :::
 
 ::: {.callout-important appearance="simple"}
@@ -134,74 +120,106 @@ Fique à vontade para me encaminhar os arquivos para revisão antes dos prazos e
 ```{=html}
 <!--
 ::: {.callout-note appearance="simple"}
-Você tem acesso, no Sistema de TCCs, aos prazos das etapas definidos pelo MBA USP/ESALQ.
+Você tem acesso, no Sistema de Trabalho Final, aos prazos das etapas definidos pelo MBA USP/ESALQ.
 :::
 -->
 ```
 
 ## Etapas do TCC
 
+::: {.callout-warning appearance="simple"}
+Antes de cada entrega, consulte o **Checklist para Formatação do Trabalho de Conclusão de Curso**.
+:::
+
 ::: panel-tabset
-### [Projeto de Pesquisa]{style="font-size:22px; color:black;"}
+### Projeto de Pesquisa
 
 Definição do tema, problema de pesquisa e estratégia metodológica. Foque na construção das seções **Introdução** e **Metodologia**.
 
 ::: {.callout-important appearance="simple"}
-Utilize o Template Projeto de Pesquisa disponibilizado no Sistema de TCCs.
+Utilize o Template disponibilizado no Sistema de Trabalho Final.
 :::
 
 ::: {style="margin-top:28px;"}
 
-::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem; margin-bottom:12px;"}
+::: info-card
 A **Introdução** deve apresentar de forma clara o tema do estudo, situando-o com base em trabalhos já publicados, delimitar o problema de pesquisa, justificar sua importância e explicitar um objetivo direto e mensurável.
 :::
 
-::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem;"}
+::: info-card
 A **Metodologia** deve explicar como a pesquisa será conduzida, descrevendo o tipo de estudo, o ferramental analítico, a origem e o tratamento dos dados, bem como os procedimentos de coleta e análise, garantindo replicabilidade.
 :::
 
 :::
 
-### [Resultados Preliminares]{style="font-size:22px; color:black;"}
+### Resultados Preliminares
 
 Consiste na apresentação dos resultados da pesquisa, podendo incluir evidências parciais quando o estudo ainda estiver em andamento.
 
 ::: {.callout-important appearance="simple"}
-Utilize o Template Resultados Preliminares disponibilizado no Sistema de TCCs.
+Utilize o Template disponibilizado no Sistema de Trabalho Final.
 :::
 
 ::: {style="margin-top:28px;"}
-::: {style="padding:20px; border:2px solid #000000; border-radius:10px; font-size:1.0rem; margin-bottom:12px;"}
-Na seção de **Resultados e Discussão**, você deve apresentar e explicar os resultados completos da pesquisa. Além de mostrar os dados, é importante interpretá-los, destacando o que eles indicam, seus pontos fortes e limitações, sempre comparando com outros estudos já publicados sobre o tema.
+::: info-card
+A **Introdução** e a **Metodologia** seguem o mesmo conteúdo definido na etapa **Projeto de Pesquisa**.
+:::
+
+::: info-card
+Na seção de **Resultados Preliminares**, apresente os resultados obtidos até o momento — a discussão é **opcional** nesta etapa. Somente na entrega final do TCC essa seção passa a se chamar **Resultados e Discussão**, quando a análise crítica dos resultados se torna obrigatória.
 :::
 :::
 
 
-### [Entrega do TCC]{style="font-size:22px; color:black;"}
+### Entrega do TCC
 
 Entrega final do trabalho.
 
+::: {.callout-important appearance="simple"}
+Utilize o Template disponibilizado no Sistema de Trabalho Final.
+:::
+
 ::: {style="margin-top:28px;"}
 
-::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
-A **Introdução** deve apresentar de forma clara o tema do estudo, situando-o com base em trabalhos já publicados, delimitar o problema de pesquisa, justificar sua importância e explicitar um objetivo direto e mensurável.
+::: info-card
+A **Introdução** e a **Metodologia** são as mesmas definidas na etapa **Projeto de Pesquisa**.
 :::
 
-::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
-A **Metodologia** deve explicar como a pesquisa será conduzida, descrevendo o tipo de estudo, o ferramental analítico, a origem e o tratamento dos dados, bem como os procedimentos de coleta e análise, garantindo replicabilidade.
-:::
-
-::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem; margin-bottom:16px;"}
+::: info-card
 Na seção de **Resultados e Discussão**, você deve apresentar e explicar os resultados completos da pesquisa. Além de mostrar os dados, é importante interpretá-los, destacando o que eles indicam, seus pontos fortes e limitações, sempre comparando com outros estudos já publicados sobre o tema.
 :::
 
-::: {style="padding:8px; border:2px solid #000000; border-radius:10px; font-size:0.95rem;"}
+::: info-card
 Na seção de **Considerações Finais**, você deve resumir os principais resultados e apresentar uma interpretação geral do estudo, respondendo de forma clara ao objetivo da pesquisa. Essa parte não deve repetir os resultados nem trazer citações, tabelas ou informações de outros estudos.
 :::
 
 :::
 
-### [Slides]{style="font-size:22px; color:black;"}
+::: {.callout-important appearance="simple"}
+Após a entrega do TCC, **não é permitido trocar o arquivo enviado**.
+:::
+
+### Slides
 
 Elaboração dos slides.
+
+::: {.callout-important appearance="simple"}
+Utilize o Template disponibilizado no Sistema de Trabalho Final.
+:::
+
+::: {style="margin-top:28px;"}
+
+::: info-card
+Baseie os slides **estritamente no conteúdo do TCC** — evite incluir informações que não constem no trabalho.
+:::
+
+::: info-card
+Evite slides com **excesso de texto ou ilustrações**: eles devem guiar a sua fala, não substituí-la.
+:::
+
+::: info-card
+A apresentação tem duração de **20 minutos** — dimensione a quantidade de slides para caber nesse tempo.
+:::
+
+:::
 :::
