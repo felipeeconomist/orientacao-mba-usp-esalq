@@ -328,4 +328,5 @@
 
 .reveal .slide-number {
   color: var(--brand);
+  font-weight: 600;
 }
