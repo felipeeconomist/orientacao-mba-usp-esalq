@@ -15,6 +15,7 @@
   --accent: #d00000;
   --accent-soft: #f8eef2;
   --link: #2454a6;
+  --brand: #224293;
 }
 
 /* ===== Base ===== */
@@ -42,10 +43,31 @@
 }
 
 .reveal h2 {
+  position: relative;
   font-size: 1.3em;
   padding-bottom: 0.28em;
   margin-bottom: 0.6em;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 1px solid var(--border);
+}
+
+.reveal h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 40px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--brand);
+}
+
+.reveal ul li::marker {
+  color: var(--brand);
+}
+
+.reveal ol li::marker {
+  color: var(--brand);
+  font-weight: 700;
 }
 
 .reveal a {
@@ -81,7 +103,7 @@
 #title-slide .subtitle {
   order: -1;
   margin: 0 0 0.7em 0;
-  color: #224293;
+  color: var(--brand);
   font-family: var(--font-head);
   font-weight: 700;
   font-size: 0.55em;
@@ -105,7 +127,7 @@
   width: 70px;
   height: 5px;
   border-radius: 3px;
-  background: #224293;
+  background: var(--brand);
 }
 
 #title-slide .quarto-title-authors {
@@ -171,11 +193,13 @@
   display: flex;
   gap: 0.8em;
   margin-top: 1em;
+  counter-reset: stage;
 }
 
 .stage-box {
+  position: relative;
   flex: 1;
-  padding: 0.7em 0.4em;
+  padding: 1.5em 0.4em 0.7em;
   border: 1px solid var(--border);
   border-radius: 10px;
   text-align: center;
@@ -184,6 +208,22 @@
   font-family: var(--font-head);
   font-weight: 700;
   font-size: 0.7em;
+  counter-increment: stage;
+}
+
+.stage-box::before {
+  content: counter(stage);
+  position: absolute;
+  top: 0.55em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.85em;
 }
 
 /* ===== Botões ===== */
@@ -200,8 +240,8 @@
 }
 
 .btn-outline:hover {
-  border-color: var(--accent);
-  color: var(--accent) !important;
+  border-color: var(--brand);
+  color: var(--brand) !important;
 }
 
 .btn-row {
@@ -249,7 +289,7 @@
 
 .reveal .panel-tabset-tabby a[aria-selected="true"] {
   color: var(--ink);
-  border-bottom-color: #224293;
+  border-bottom-color: var(--brand);
 }
 
 /* ===== Slides esparsos: conteúdo centralizado no espaço abaixo do título =====
@@ -277,6 +317,11 @@
 }
 
 .accent-text {
-  color: var(--accent);
+  color: var(--brand);
   font-weight: 700;
+}
+
+/* ===== Barra de progresso (reveal.js) ===== */
+.reveal .progress {
+  color: var(--brand);
 }
