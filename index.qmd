@@ -110,13 +110,13 @@ Manual de apoio para TCCs em viabilidade econômica, com orientações sobre flu
 Foi elaborado um cronograma de orientação, disponível para download nos links abaixo, com base nos prazos estabelecidos pelo MBA USP/ESALQ. Destaca-se que não há autonomia quanto às etapas de submissão no sistema e que a avaliação será realizada com base nas entregas do Projeto de Pesquisa e dos Resultados Preliminares.
 
 ::: {style="display:flex; gap:15px;"}
-<a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=cubxear8&dl=0" 
-   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem; 
-          border-radius:6px; text-decoration:none; font-weight:600;"> Turma 242 </a>
-
-<a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=cubxear8&dl=0" 
-   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem; 
+<a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=4krqk3vl&dl=0"
+   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem;
           border-radius:6px; text-decoration:none; font-weight:600;"> Turma 251 </a>
+
+<a href="https://www.dropbox.com/scl/fi/uqhgqzfhut6vbu8qdies0/Cronograma-GPRO252.xlsx?rlkey=veam6tv7xvbgw7xn6apngau1p&st=9ag61vhb&dl=0"
+   style="background:#0D6EFD; color:white; padding:0.3rem 0.8rem;
+          border-radius:6px; text-decoration:none; font-weight:600;"> Turma 252 </a>
 :::
 ::::
 
@@ -180,7 +180,6 @@ Na seção de **Resultados e Discussão**, você deve apresentar e explicar os r
 ### [Entrega do TCC]{style="font-size:22px; color:black;"}
 
 Entrega final do trabalho.
-
 
 ::: {style="margin-top:28px;"}
 
