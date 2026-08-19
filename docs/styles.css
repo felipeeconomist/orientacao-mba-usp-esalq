@@ -1,7 +1,11 @@
+/* Fonte carregada via Google Fonts (nome atual: Source Sans 3) para evitar
+   a substituição pelo sistema operacional, que deixa o texto borrado. */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 /* ===== Design tokens (mesma paleta do site felipeeconomist.github.io) ===== */
 :root {
-  --font-head: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-body: "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-head: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --ink: #111827;
   --ink-2: #374151;
   --muted: #6b7280;
@@ -18,6 +22,9 @@
   font-family: var(--font-body);
   font-size: 30px;
   color: var(--ink-2);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .reveal .slides {
@@ -59,14 +66,52 @@
   font-size: 0.4em;
 }
 
-/* ===== Slide de título ===== */
+/* ===== Slide de título =====
+   !important necessário: o reveal.js define display:block inline no
+   <section> ativo ao trocar de slide, o que sobrepõe qualquer regra
+   de folha de estilo externa independentemente de especificidade. */
 #title-slide.quarto-title-block {
   text-align: left;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title-slide .subtitle {
+  order: -1;
+  margin: 0 0 0.7em 0;
+  color: #224293;
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.55em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 #title-slide .title {
+  position: relative;
   border-bottom: none;
-  font-size: 1.7em;
+  padding-bottom: 0.45em;
+  margin-bottom: 0.5em;
+  font-size: 1.9em;
+}
+
+#title-slide .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  height: 5px;
+  border-radius: 3px;
+  background: #224293;
+}
+
+#title-slide .quarto-title-authors {
+  margin-top: 1.3em;
+  padding-top: 0.9em;
+  border-top: 1px solid var(--border);
 }
 
 #title-slide .quarto-title-author-name {
@@ -204,7 +249,22 @@
 
 .reveal .panel-tabset-tabby a[aria-selected="true"] {
   color: var(--ink);
-  border-bottom-color: var(--accent);
+  border-bottom-color: #224293;
+}
+
+/* ===== Slides esparsos: conteúdo centralizado no espaço abaixo do título =====
+   !important pelo mesmo motivo do slide de título (ver acima). */
+.reveal .slides section.fill-remaining {
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.fill-remaining-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ===== Texto utilitário ===== */

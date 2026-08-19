@@ -9,5 +9,4 @@ format:
   revealjs:
     theme: default
     slide-number: true
-    footer: "Elaborado por Felipe Miranda de Souza Almeida."
     css: styles.css

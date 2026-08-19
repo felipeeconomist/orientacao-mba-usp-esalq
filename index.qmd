@@ -1,5 +1,6 @@
 ---
 title: "TCC MBA USP/ESALQ"
+subtitle: "Orientação de TCC · MBA em Gestão de Projetos"
 author: "Felipe Miranda de Souza Almeida"
 ---
 
@@ -38,12 +39,14 @@ Solicita-se que o material não seja compartilhado com alunos de outros orientad
 :::::
 :::::::
 
-## Comunicação
+## Comunicação {.fill-remaining}
 
+::: fill-remaining-body
 O processo de orientação e comunicação ocorrerá [exclusivamente]{.accent-text} por meio do chat disponível no Sistema de Trabalho Final.
 
 ::: {.callout-note appearance="simple"}
 Contato adicional: **felipemirandadesouza\@outlook.com**
+:::
 :::
 
 ## Documentos Importantes
@@ -60,7 +63,7 @@ No sistema acadêmico, você tem acesso a documentos essenciais que auxiliam na 
 <li><strong>Manual de Instruções e Normas para Trabalhos de Conclusão de Curso</strong></li>
 
 <li><strong>Áreas Temáticas</strong>\
-material de apoio, indicando linhas de pesquisa, métodos e procedimentos a serem empregados para a elaboração de trabalhos referentes ao curso de MBA em Gestão de Projetos.</li>
+Material de apoio, indicando linhas de pesquisa, métodos e procedimentos a serem empregados para a elaboração de trabalhos referentes ao curso de MBA em Gestão de Projetos.</li>
 
 <li><strong>Metodologias de pesquisa para trabalhos de conclusão de curso</strong>\
 Este manual apresenta definições e etapas sugeridas para a classificação de pesquisas de natureza aplicada.</li>
@@ -71,6 +74,28 @@ Manual de apoio para TCCs em viabilidade econômica, com orientações sobre flu
 <li><strong>Documentos complementares disponibilizados no Sistema de Trabalho Final</strong></li>
 
 </ol>
+:::
+
+::: {.callout-important appearance="simple"}
+Utilize o modelo de redação em um **documento Word destravado**, viabilizando o uso da ferramenta **Controle de Alterações** durante a revisão do seu trabalho.
+:::
+
+## Fontes de Pesquisa
+
+::: {.callout-note appearance="simple"}
+A fundamentação teórica do seu trabalho deve ser construída com base em referências confiáveis, extraídas de fontes acadêmicas reconhecidas.
+:::
+
+**Portais recomendados:**
+
+::: {.text-small}
+- SciELO
+- Google Acadêmico
+- Portal de Periódicos da CAPES
+:::
+
+::: btn-row
+<a href="https://pecege.com/portais-de-pesquisa/" class="btn-outline">Outros portais sugeridos pelo MBA USP/ESALQ</a>
 :::
 
 ## Etapas do TCC
@@ -98,7 +123,7 @@ O uso dos templates disponibilizados e o cumprimento das normas de formatação 
 :::
 
 :::: {.callout-note title="Cronograma"}
-Foi elaborado um cronograma de orientação, disponível para download nos links abaixo, com base nos prazos estabelecidos pelo MBA USP/ESALQ. Destaca-se que não há autonomia quanto às etapas de submissão no sistema e que a avaliação será realizada com base nas entregas do Projeto de Pesquisa e dos Resultados Preliminares.
+Elaborei um cronograma de orientação, disponível para download nos links abaixo, para acompanhá-lo(a) mais de perto ao longo do processo, com base nos prazos estabelecidos pelo MBA USP/ESALQ. Destaca-se que não há autonomia quanto às etapas de submissão no sistema e que a avaliação será realizada com base nas entregas do Projeto de Pesquisa e dos Resultados Preliminares.
 
 ::: btn-row
 <a href="https://www.dropbox.com/scl/fi/0gacn950hen03c1shg6ef/Cronograma-GPRO251.xlsx?rlkey=nayg4lbij4ybgr7rzasgoua3f&st=4krqk3vl&dl=0" class="btn-outline">Turma 251</a>
@@ -107,23 +132,9 @@ Foi elaborado um cronograma de orientação, disponível para download nos links
 ::::
 
 
-::: {.callout-note appearance="simple"}
-Você tem acesso, no Sistema de Trabalho Final, aos prazos das etapas definidos pelo MBA USP/ESALQ.
-:::
-
 ::: {.callout-important appearance="simple"}
 Fique à vontade para me encaminhar os arquivos para revisão antes dos prazos estabelecidos no cronograma.
 :::
-
-
-
-```{=html}
-<!--
-::: {.callout-note appearance="simple"}
-Você tem acesso, no Sistema de Trabalho Final, aos prazos das etapas definidos pelo MBA USP/ESALQ.
-:::
--->
-```
 
 ## Etapas do TCC
 
